@@ -1,11 +1,6 @@
 /*
  * new Env("阿里云盘签到");
- * cron 0 9 * * *  autoSignin.js
- * Show: 
- * 变量名:ysfqd_data 多账户 @ 或换行
- * https://youhui.95516.com/newsign/api请求体的headers中Authorization 不要带上Bearer，要它后面的值
- * 变量值:ej...xx
- * scriptVersionNow = "0.0.1";
+ * cron: 0 5 6 * * ?
 */
 
 const axios = require("axios");
