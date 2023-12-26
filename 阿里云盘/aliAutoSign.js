@@ -1,5 +1,6 @@
 /*
-cron "0 9 * * *" autoSignin.js, tag=阿里云盘签到
+ * new Env("阿里云盘签到");
+ * cron: 0 5 6 * * ?
 */
 
 const axios = require("axios");
