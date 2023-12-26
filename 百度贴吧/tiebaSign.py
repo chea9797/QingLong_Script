@@ -24,6 +24,8 @@ TBS_URL = "http://tieba.baidu.com/dc/common/tbs"
 SIGN_URL = "http://c.tieba.baidu.com/c/c/forum/sign"
 
 ENV = os.environ
+# 打印ENV
+logging.info(ENV)
 
 HEADERS = {
     'Host': 'tieba.baidu.com',
