@@ -1,3 +1,10 @@
+"""
+File: xiaomi.py
+cron: 0 40 6 * * ?
+new Env('小米运动刷步脚本');
+Description: 小米运动刷步脚本,实现每日自动刷步
+"""
+
 # -*- coding: utf8 -*-
 import datetime
 import json
